@@ -1,6 +1,6 @@
 #!/user/bin/python
 #coding:utf-8
-__author__ = 'ShengXiang.X'
+__author__ = ''
 
 import jieba
 import numpy as np
