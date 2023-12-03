@@ -1,6 +1,5 @@
 #!/user/bin/python
 # coding:utf-8
-__author__ = 'ShengXiang.X'
 import warnings
 warnings.filterwarnings(action='ignore', category=UserWarning, module='gensim')
 from gensim.corpora import WikiCorpus
