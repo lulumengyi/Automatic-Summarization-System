@@ -1,6 +1,5 @@
 #!/user/bin/python
 # coding:utf-8
-__author__ = 'ShengXiang.X'
 import jieba
 import codecs
 import opencc
