@@ -1,6 +1,5 @@
 #!/user/bin/python
 # coding:utf-8
-__author__ = 'ShengXiang.X'
 
 from gensim.models.deprecated.word2vec import Word2Vec
 
