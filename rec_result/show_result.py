@@ -1,9 +1,8 @@
 #!/user/bin/python
 #coding:utf-8
-__author__ = 'ShengXiang.X'
+__author__ = ''
 import re
 import codecs
-import click_bait_rec
 
 str = r'D:\Python_Space\Automatic_abstracting\data\news_tensite_xml.smarty.dat'
 # file = codecs.open(str, 'w','utf-8')
@@ -19,8 +18,8 @@ with codecs.open(str, "r", encoding='utf-8') as myfile:
     context = re.findall(con_pat,text)
 
 p = 0.35
-str1 = '非标题党'
-str2 = '标题党'
+str1 = ''
+str2 = ''
 s = len(title)
 # with codecs.open(r'D:\Python_Space\Automatic_abstracting\data\result.txt', "w", encoding='utf-8') as newsfile:
 for i in range(s):
